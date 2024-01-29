@@ -1,0 +1,24 @@
+:root{
+      --background-color: #faf0e6;
+      --bs-primary-rgb: #12296c;
+}
+body{
+      font-family: 'Kalam', cursive;
+      background-color: var(--background-color);
+      color: var(--bs-primary-rgb);
+      font-weight: 300;
+      font-size: 1.2rem;
+      /* background-image: url(/img/bg2.jpg); */
+}
+
+h1,h2,h3,h4,h5,h6{
+      font-family: 'Unbounded', cursive;
+      font-weight: 800;
+}
+
+/* Buttons */
+.btn{
+      padding-left: 1.6rem;
+      padding-right: 1.6rem;
+      border-radius: 2rem;
+}
